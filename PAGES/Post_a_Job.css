@@ -1,0 +1,75 @@
+body{
+  font-family: 'Lato', sans-serif;
+  background-color:#FAF4F4;
+}
+/* General Styles */
+.general-div{
+  width: 800px;
+  margin: 60px auto;
+  display: flex;
+  justify-content:space-around;
+}
+.postjob-h2{
+  text-align: center;
+  font-size: 42px;
+  margin-top: 50px;
+}
+.spencer{
+  width: 500px;
+  margin-top: 80px;
+}
+.spencer-img{
+  width: 80%;
+}
+.humble{
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.humble-img{
+  width: 100%;  
+}
+.postjob-h3{
+  font-size: 36px;
+  text-align: center;
+}
+.post-job-p{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.apply-button
+{
+padding:10px 22px;
+font-size:16px;
+display: block;
+margin: 0 auto;
+background-color: #ba8fcf;
+border: 1px solid #ba8fcf;
+color: white;
+}
+
+ a{
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #BFDAEB;
+}
+
+@media only screen and (max-width: 767px) {
+  .apply-button {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .apply-button {
+    font-size: 18px;
+    padding: 14px 28px;
+  }
+}
+
+  
+  
