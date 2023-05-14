@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #FAF4F4
+#E9A0BD
+#BA8FC7
+#BFDAEB */
+.joblist-container{
+    width: 62.5rem;
+    margin: 1.25rem auto;
+
+}
+.joblist-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3.75rem auto;
+    width: 100%;
+}
+.joblist-input .listjob{
+    padding: 0.625rem 5rem;
+    /* position: relative; */
+}
+.glass{
+position: absolute;
+top: 4.625rem;
+left: 12.5rem;
+color: #797474;
+}
+.location-dot{
+    position: absolute;
+    top: 4.625rem;
+    right: 30rem;
+    color: #797474;
+
+}
+.joblist-button{
+    padding: 0.625rem 1.875rem;
+    background-color: #E9A0BD;
+    border: 1px solid #E9A0BD;
+    font-weight: 900;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.joblist-input .listjob{
+    padding: 0.625rem 5rem;
+}
+.joblist-button:hover{
+    background-color: #af2f63;
+
+}
+.joblist_jc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.joblist_content{
+    /* padding: 20px 60px; */
+    margin: 1.25rem 0;
+    line-height: 1.5em;
+    border:1px solid #E9A0BD;
+    width: 25rem;
+    border-radius: 0.625rem;
+}
+.joblist-header3{
+    width: 10rem;
+    text-align: center;
+    margin: 0.625rem;
+    /* margin-left:-60px; */
+    font-size: 1.125rem
+}
+.job-info{
+    margin:0.625rem 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 900;
+}
+.fa-house{
+    margin: 0.3125rem;
+    color: #E9A0BD;
+}
+
+.fa-play{
+    margin: 0.3125rem;   
+}
+.easy-apply{
+    text-decoration: none;
+}
+.req{
+    margin-left: 1.25rem;
+    font-weight: bold;
+    font-size: 1.125rem
+}
+.job-info2{
+    list-style: none;
+    margin-left: 1.375rem
+}
+.joblist-date{
+    font-size: 0.875rem;
+    list-style: none;
+    margin: 1.25rem;
+    font-weight: 500;
+}
+.read{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.9375rem;
+    text-decoration: none;
+}
+.read a{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+/* STYLING RESPOSIVENESS */
+@media (min-width:900px) and (max-width:1100px) {
+    .joblist-container{
+        width: 55rem;
+        margin: 1.25rem 0.625rem;
+    
+    }
+
+    .joblist-form{
+        margin: 3.75rem 1.25rem;
+        justify-content: space-around;
+    }
+    .joblist-input .listjob{
+        padding: 0.625rem 3.75rem;
+        /* position: relative; */
+    }
+    .joblist-button{
+        padding: 0.625rem 1.5625rem;
+        font-size: 0.875rem;
+        
+    }
+    .joblist-input .listjob{
+        padding: 0.625rem 2.5rem;
+    }
+    .joblist_jc{
+        justify-content: space-around;
+        
+    }
+    
+}
+@media (min-width:700px) and (max-width:899px){
+    .joblist-container{
+        width: 40rem;
+        margin: 10.9375rem 0.3125rem;
+    }
+
+    .joblist-form{
+        display: flex;
+        margin: 0.625rem;
+        
+    }
+    .joblist-input .listjob{
+        padding: 0.625rem 1.25rem;
+        /* position: relative; */
+    }
+    .glass{
+    top: 1.5625rem;
+    left: 13.125rem;
+    }
+    .location-dot{
+        top: 1.5rem;
+        right: 12.5rem;
+    
+    } 
+    .joblist-button{
+        padding: 0.6875rem 0.9375rem;
+        font-size: 13px;
+        font-weight: 0.8125rem;
+        
+    }
+    .joblist-input .listjob{
+        padding: 0.625rem 1.875rem;
+        margin: 0 0.3125rem;
+    }
+    .joblist_jc{
+        display: flex;
+        margin: 0 0.625rem;
+    }
+    .joblist_content{
+        margin: 1.25rem 0.625rem;  
+    }
+    
+}
+@media (min-width:250px) and (max-width:699px){
+    .joblist-container{
+        width: 27.5rem;
+        margin: 1.25rem auto;
+    
+    }
+    .joblist-form{
+        flex-direction: column;
+        align-items: center;
+        /* margin: 12px auto; */
+        
+    }
+    .joblist-input .listjob{
+        padding: 0.625rem 5rem;
+        margin: 0.9375rem auto;
+    }
+    .joblist_jc{
+       flex-direction: column;
+    }
+        
+ .glass{
+  
+    top: 5.3125rem;
+    left: 21.875rem;
+    }
+    .location-dot{
+        top: 9.6875rem;
+        left: 21.875rem;  
+    } 
+    .joblist_content{
+        width: 21.875rem;
+    } 
+}
