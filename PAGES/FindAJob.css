@@ -1,0 +1,61 @@
+/* Reset default browser styles */
+body, h1, p, form, input, select, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #FAF4F4;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .job-search-form {
+    display: inline-flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .location-select, .industry-select {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 16px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #ff09ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .job-listings {
+    /* Styles for job listings */
+  }
+  
+  footer {
+    text-size-adjust: 8px;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }

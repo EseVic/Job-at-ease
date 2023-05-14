@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#fdf0f0;
+}
+/*this is the navbar page*/
+.nav-width img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    right: 100%;
+}
+.menu-list{
+    margin: 10px;
+    padding: 10px;
+    transition: -4s;
+}
+.menu-list a:hover{
+    color: red;
+}
+.menu_btn{
+    margin: 10px;
+}
+.btn-green:hover{
+transition: -4s;
+color: blue;
+}
+
+/* THIS IS THE ABOUT PAGE*/
+.footer-contact-width{
+    margin: 20px 20px 20px 20px;
+    padding-left: ;
+}
+.logo-picture{
+    width: 100px;
+    height: 100px;
+    margin-right: -80px;
+    margin-left: 7%;
+    font-size: 40px;
+    margin-top: 20px;
+    display: inline-flex;
+}
+.logo-picture img{
+    /*right: 300%;*/
+    display: flex;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+/*.about_us{
+    margin-top: 20px;
+    padding-top: 20px;
+    color: blueviolet;
+    font-family: sans-serif;
+    font-size: 100%;
+}*/
+
+.writting{
+    margin-top: 20px;
+    padding-top: 20px;
+    font-family: Lato, sans-serif;
+    font-size: 20pt;
+    display: flexbox;
+    text-align: center;
+    border: 2px solid;
+    background-color: #E9A0BD;
+    border-color: palevioletred;
+    color: black;
+    border-right: #FAF4F4;
+    border-left: #FAF4F4;
+    border-bottom: #FAF4F4;
+    border-top: #FAF4F4;
+    
+   /* background-origin: border-box;
+    box-sizing: border-box;
+    box-sizing: 20px 20px;
+    text-indent: 1.0px;
+    box-sizing: content-box;*/
+}
+.writting h2{
+   margin: 20px 30px;
+   padding: 10px 10px;
+   color: black;
+   background-color: #E9A0BD;
+}
+.note{
+    background-color: #E9A0BD;
+}
+.miniheading{
+    background-color: #E9A0BD;
+}
+
+/*THIS IS THE TEAM PICTURES*/
+.team_pictures{
+    display: inline-block;
+    width: 200px;
+    max-width: 150%;
+    height: 200px;
+    border-radius: 50px;
+    padding: 20px 20px;
+}
+.team_pictures img{
+    width: 200px;
+    max-width: 150%;
+    height: 200px;
+    border-radius: 50px; 
+    display: inline-block;
+    padding: 20px 20px;
+}
+.VEE{
+    width: 300px;
+    height: 300px;
+    border-radius: 80px;
+
+}
+/*THIS IS THE SOCIAL PAGES*/
+.footer-social{
+   /* font-family: sans-serif;
+    font-size: larger;
+    margin: 20PX 20PX;
+    padding: 10PX;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+   border: 2px solid;*/
+}
+.footer-social{
+    /*display: flex;
+    border: 2px solid;
+    color: black;
+    margin-right: -60px;
+    margin-top: 20px;*/
+    margin-top: 30px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 20pt;
+    display: flexbox;
+    text-align: center;
+    border: 5px solid;
+    background-color: #BFDAEB;
+    border-color: #BFDAEB;
+    color: black;
+    border-right: #FAF4F4;
+    border-left: #FAF4F4;
+    border-bottom: #FAF4F4;
+    border-top: #FAF4F4;  
+}
+.icon_title{
+  margin: 20px 20px;
+  padding: 10px 10px;
+  font-size: larger;
+  font-family: sans-serif; 
+  background-color: #BFDAEB;
+  border-color: #BFDAEB;
+}
+.icons i{
+    text-decoration: none;
+    color: #000;
+    margin-right: -40px;
+    margin-left: 7%;
+    font-size: 40px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-color: #BFDAEB;
+  }
+  .icons i{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+  }
+  .icons i:hover{
+    color:rgb(228, 34, 34);
+  }
+  .footer-address{
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid;
+    background-color: #BFDAEB;
+    border-right: #FAF4F4;
+    border-left: #FAF4F4;
+    border-bottom: #FAF4F4;
+    border-top: #FAF4F4;
+    font-family: sans-serif; 
+  }
+  .footer-address h3{
+    background-color: #BFDAEB;
+  }
+  .green{
+    background-color: #BFDAEB;
+  }
+  .tide{
+    background-color: #BFDAEB;
+  }
+  .footer-phone{
+    background-color: #BFDAEB;
+  }
+  .num{
+    background-color: #BFDAEB;
+  }
+  .com{
+    background-color: #BFDAEB;
+  }
+/*THIS IS THE FOOTER LINK SECTION*/
+  .footer-quicklink{
+    margin-top: 40px;
+    font-size: medium;
+    font-family: sans-serif;
+    transition: -4s;
+  }
+  .trans{
+    margin-top: 5px;
+  }
+  .trans a:hover{
+    color: red;
+  }
+
+.news-letter{
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px){
+    .responsive {
+      width: 100%;
+    }
+  }
