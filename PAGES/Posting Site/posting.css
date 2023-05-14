@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#poster{
+    font-family: cursive;
+    font-size: 16px;
+    background: white;
+    color: black;
+}
+#post-img{
+    width: 150px;
+    height: 100px;
+}
+#imager{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#ceo{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#form-posting{
+    margin: auto;
+    width: 90%;
+    background-color: white;
+}
+.job-input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0; 
+    border: 5px solid #bfdaeb;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.job-font{
+    font-weight: bold;
+}
+.info{
+    margin-left: 15px;
+}
+.radio-btn{
+    margin-bottom: 25px;
+    margin-left: 12px;
+}
+.form-field{
+    margin-bottom: 100px;
+}

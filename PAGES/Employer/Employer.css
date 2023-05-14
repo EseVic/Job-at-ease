@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#dress{
+    font-family: cursive;
+    font-size: 16px;
+    background: white;
+    color: black;
+}
+#img-crib{
+    width: 150px;
+    height: 100px;
+}
+#img-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#employer-form{
+    font-size: 54px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.form-level{
+    margin: auto;
+    width: 40%;
+    background-color: white;
+}
+.inputed{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0; 
+    border:none;
+    background-color: #bfdaeb;
+    font-size: 16px;
+    font-weight: bold;
+}
+.note{
+    font-size: small;
+    font-weight: bold;
+    color: red;
+    margin-left: 20px;
+}
+#click{
+    background-color: #e9a0bd;
+    width: 30%;
+    margin-left: 200px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+#click:hover{
+    
+}

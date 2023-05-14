@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Posting Site</title>
+    <link rel="stylesheet" href="./posting.css">
+</head>
+<body id="poster">
+    <div id="imager">
+        <img id="post-img" src="./job@ease.jpg" alt="">
+    </div>
+    <h3 id="ceo">80% of employers who post a job on Job@Ease get a quality Candidate through the site within the first day!</h3>
+    <div id="form-posting">
+        <form class="form-field">
+            <div class="form-job">
+                <label class="job-font" for="jobTitle">*Job Title</label><br>
+                <input class="job-input" type="text" id="jobTitle" placeholder="Enter Job Title" required>
+            </div>
+            <div class="form-job">
+                <label class="job-font" for="jobLocate">*Job Location</label><br>
+                <input class="job-input" type="text" id="jobLocate" placeholder="Enter ZIP or City, State" required>
+            </div>
+            <div class="form-job">
+                <label class="job-font" for="streetAdd">*Street Address</label><br>
+                <p class="info">Some jobs board allow users to search with a map. Enter your address for better visibility. </p>
+                <input class="job-input" type="text" id="streetAdd" placeholder="No 419, TIIDELab Estate Abuja" required>
+            </div>
+            <h3 id="role">*Can this role be performed as a "remote wor from home" job with no on-site work required?</h3>
+            <p class="info">selecting yes will allow this job post to be seen by local candidates and candidates looking for remote positions.</p>
+            <div class="rad-btn">
+                <input type="radio" class="radio-btn" name="yes">
+                <label for="radio">Yes</label>
+                <input type="radio" class="radio-btn" name="no">
+                <label for="radio">No</label>
+            </div>
+            <div class="form-job">
+                <label class="job-font" for="employType">*Employment Type</label><br>
+                <input class="job-input" type="text" id="employType" placeholder="Select Employment Type" required>
+            </div>
+    </div>
+</body>
+</html>
