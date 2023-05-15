@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>postjob-form</title>
+    <link rel="stylesheet" href="postjob-form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <center>
+        <img src="job at ease.jpg" width="200px" height="100" >
+    </center>
+    <h1 class="formTitle1">JOB DETAILS FORM</h1>
+        <p class="formHead">
+        80% of employers who post a job on Job@ease get a quality candidtate
+        through the site within the first day!
+        </p>   
+
+    <div class="formContainer">
+        <form action="" class="formField">
+            <div class="textareaOne" id="areaOne">
+                <div class="textArea">
+                    <div class="formDetails">
+                        <label for="jobTitle">*Job Title:</label><br>
+                        <input class="formInput" type="text" id="jobTitle" placeholder="Enter job title">
+                    </div>
+            
+                    <div class="formDetails">
+                         <label for="jobLocation">*Job Location:</label><br>
+                         <input class="formInput" type="text" id="jobLocation" placeholder="Enter ZIP or City, State"><br>
+                    </div>
+                    <div class="formDetails">
+                        <label for="employmentType">*Employment Type:</label><br>
+                        <input class="formInput" type="text" id="employmentType" placeholder="Select Employment Type">
+                    </div>
+                    <div class="formDetails">
+                        <label for="jobDescription">*Job Description:</label><br>
+                        <textarea class="formInput" placeholder="Enter a Job Description" id="jobDescription" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                
+                <div class="textArea">
+                <div class="formDetails">
+                    <label for="whyWork">*Why work at this company?:</label><br>
+                    <textarea class="formInput" placeholder="Awesome benefits, great CEO, good team work, e.t.c" id="whyWork" cols="30" rows="10"></textarea> 
+                </div>
+                <div class="formDetails">
+                    <label for="benefits">*Benefits:</label><br>
+                    <textarea  class="formInput" id="benefits"cols="30" rows="10"></textarea> 
+                </div>
+                </div>
+            </div>    
+            
+            <button type="button" class="postButton" id="buttonId">Post a Job</button>
+        </form>  
+
+        <!-- FAF4F4   light red-->
+        <!-- #E9A0BD   red-->
+        <!-- #BA8FC7   light purple -->
+        <!-- #BFDAEB     light blue -->
+    </div>
+    <script src="postjob-form.js"></script>
+</body>
+</html>
