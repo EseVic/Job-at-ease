@@ -44,17 +44,22 @@ padding:10px 22px;
 font-size:16px;
 display: block;
 margin: 0 auto;
-background-color: #ba8fcf;
-border: 1px solid #ba8fcf;
+background-color: #E9A0BD;
+border: 1px solid #E9A0BD;
 color: white;
+transition: 200ms ease-in;
 }
+
 
  a{
   text-decoration: none;
 }
 
 button:hover {
-  background-color: #BFDAEB;
+  background-color: #E9A0BD;
+  border-radius: 8px;
+  cursor: pointer;
+
 }
 
 @media only screen and (max-width: 767px) {

@@ -1,0 +1,47 @@
+body{
+    font-family: 'Lato', sans-serif;   
+}
+
+@media screen and (max-width: 950px) {
+    #areaOne{
+        display: block;
+        padding: 0rem;
+    }
+}
+.formTitle1{
+text-align: center;
+}
+.formHead{
+    padding-left: 50px;
+}
+
+.formDetails{
+    color: black;
+    font-weight: bold;
+    margin: 30px 40px;
+}
+.formInput{
+    background-color: white;
+    padding: 10px 50px;
+    margin: 10px;
+    font-size: 16px;
+    border: solid #BFDAEB;
+}
+.textArea{
+    padding: none;
+}
+.textareaOne{
+display: flex;
+justify-content: space-between;
+padding: none;   
+}
+#buttonId{
+    background-color: #E9A0BD;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 20px;
+    display: block;
+    margin: 5px auto;
+    border-radius: 20px;
+    border: solid white;
+}
