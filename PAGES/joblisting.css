@@ -30,13 +30,13 @@ body{
 }
 .glass{
 position: absolute;
-top: 4.625rem;
+top: 8.195rem;
 left: 12.5rem;
 color: #797474;
 }
 .location-dot{
     position: absolute;
-    top: 4.625rem;
+    top: 8.225rem;
     right: 30rem;
     color: #797474;
 
@@ -66,11 +66,11 @@ color: #797474;
     margin: 1.25rem 0;
     line-height: 1.5em;
     border:1px solid #E9A0BD;
-    width: 25rem;
+    width: 27rem;
     border-radius: 0.625rem;
 }
 .joblist-header3{
-    width: 10rem;
+    width: 11.5rem;
     text-align: center;
     margin: 0.625rem;
     /* margin-left:-60px; */
