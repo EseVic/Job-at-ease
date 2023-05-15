@@ -6,20 +6,19 @@
 	<title>Home</title>
 </head>
 <body>
+	<nav class="menu" id="menu">
+			<img src="./PAGES/images/logo.jpeg" height="40" class="nav-logo">
+			<div class="menu-content">
+				<ul class="menu-list">
+					<li><a href="">LOG IN </a></li>
+					<li><a href="./PAGES/Registration.html">FIND A JOB</a></li>
+					<li><a href="#about">ABOUT</a></li>
+				</ul>
+				<btn class="started"><a href="">GET STARTED</a></btn>
 
-	<div class="menu">
-			<img src="images/logo.jpeg" height="40">
-			<ul>
-				
-				
-				
-				<li class="started"><a href="">GET STARTED</a></li>
-				<li><a href="">LOG IN </a></li>
-				<li><a href="">FIND A JOB</a></li>
-				<li><a href="">ABOUT</a></li>
-			</ul>
-		
-	</div>
+			</div>
+			
+	</nav>
 
 	<div class="main">
 		
@@ -28,79 +27,82 @@
 
 			<div class="banner-content">
 				<div class="text">
-				<p style="font-size: 34px">
-					<strong >Employer Needs Employee</strong>
-				</p>
 				<p>
+					<h1 style="font-size:44px" >Employer Needs Employee</h1>
+				</p> <br>
+				
+				<p class="banner-content1">
 					When an employer hires, he is not just adding new member to the organisation; he also forms an employee and employer link.
 				</p>
-				<p></p>
+				<br><br>
+				
 
 				<div class="butn-area">
-					<div class="butn-a">
-						<a href="">FIND A JOB</a>
-					</div>
-					<div class="butn-b">
-						<a href="">POST A JOB</a>
-					</div>
+					<btn class="butn-a">
+						<a href="./PAGES/Registration.html">FIND A JOB</a>
+					</btn>
+					<btn class="butn-b">
+						<a href="./PAGES/Post_a_Job.html">POST A JOB</a>
+					</btn>
 				</div>
 				
 			</div>
+
 			<div class="banner-image">
-				<img src="images/banner.jpg" width="auto" height="300">
+				<img src="./PAGES/images/banner.JPG" width="500" height="400">
 			</div>
-			</div>
+		
 			
 		</div>
 
 		<div class="about">
 			<div class="about-content">
-				<strong>About Us</strong>
+				<h2 id="about">About Us</h2>
 				<p>
 					Job@Ease is job searching platform thas connects the qualified professionals seeking for their dream jobs to employers looking to hire the best talent to help grow their businesses.
 				</p>
-
-				<p>
-					<strong>Our Team</strong>
-				</p>
+		
 				
 			</div>
 			
 		</div>
 
 
-		<div class="team">
+		<div class="team ">
+			<p>
+				<h2 class="team-h2">Our Team</h2>
+			</p>
 			<div class="images">
 				<div class="single-images">
-					<img src="images/IMAGES  (3) vic.jpg"  >
+					<img src="./PAGES/images/IMAGES  (3) vic.jpg"  >
 				</div>
 				<div class="single-images">
-					<img src="images/IMAGES  (3) sam.jpeg"  >
+					<img src="./PAGES/images/IMAGES  (3) sam.jpeg"  >
 				</div>
 				<div class="single-images">
-					<img src="images/IMAGES  (1) ayo.jpeg"  >
+					<img src="./PAGES/images/IMAGES  (1) ayo.jpeg"  >
 				</div>
 				<div class="single-images">
-					<img src="images/IMAGES  (1) taiwo.jpg"  >
+					<img src="./PAGES/images/IMAGES  (1) taiwo.jpg"  >
 				</div>
 				<div class="single-images">
-					<img src="images/IMAGES  (2) joy.jpg"  >
+					<img src="./PAGES/images/IMAGES  (2) joy.jpg"  >
 				</div>
 
 				<div class="single-images">
-					<img src="images/IMAGES  (6) adeyemi.jpeg"  >
+					<img src="./PAGES/images/IMAGES  (6) adeyemi.jpeg"  >
 				</div>
 				<div class="single-images">
-					<img src="images/IMAGES  (7) okome.jpeg"  >
+					<img src="./PAGES/images/IMAGES  (7) okome.jpeg"  >
 				</div>
 				<div class="single-images">
-					<img src="images/IMAGES  (4) zee.jpeg"  >
+					<img src="./PAGES/images/IMAGES  (4) zee.jpeg"  >
 				</div>
 				<div class="single-images">
-					<img src="images/IMAGES  (2) aminu.jpeg"  >
+					<img src="./PAGES/images/IMAGES  (2) aminu.jpeg"  >
 				</div>
 				<div class="single-images">
-					<img src="images/IMAGES  (5) ghost.jpeg"  >
+					<img src="./PAGES/images/IMAGES  (5) ghost.jpeg"  >
 				</div>
 				
 			</div>
@@ -112,14 +114,15 @@
 
 	<div class="footer">
 		<p>
-			<img src="images/logo.jpeg" height="70">
+			<a href="#menu"><img src="./PAGES/images/logo.jpeg" height="70"></a>
+			
 		</p>
 		<div class="footer-icons">
 			<ul>
-				<li><img src="images/linkedin.png" height="50" width="auto"></li>
-				<li><img src="images/twitr.png" height="50" width="auto"></li>
-				<li><img src="images/images.png" height="50" width="auto"></li>
-				<li><img src="images/gmail.png" height="50" width="auto"></li>
+				<li><img src="./PAGES/images/linkedin.png" height="30" width="auto"></li>
+				<li><img src="./PAGES/images/twitr.png" height="30" width="auto"></li>
+				<li><img src="./PAGES/images/images.png" height="30" width="auto"></li>
+				<li><img src="./PAGES/images/gmail.png" height="30" width="auto"></li>
 			</ul>
 		</div>
 		
@@ -127,6 +130,15 @@
  
 </body>
 <style type="text/css">
+	html{
+		scroll-behavior: smooth;
+	}
+	
+	.team-h2{
+		font-size: 35px;
+		text-align: center;
+		padding: 20px;
+	}
 
 
 	.footer ul li{
@@ -140,36 +152,37 @@
 
 	 .footer-icons{
 
-	 	width: 60%;
-	 	margin: auto;
+	 	/* width: 60%;
+	 	margin: auto; */
 	 }
 
 	.footer {
 	  align-items: center;
-	  background-color: grey;
-	  text-align: center;
-	  padding: 10px;
-	  display: block;
+	  background-color: #BFDAEB;
 	  width: 100%;
-	  margin: 20;
 	  float: left;
+	  display: flex;
+	  justify-content: space-between;
 	}
 
     .menu{
-   
-    	display: block;
-    	height: 50px;
-    	 background-color: #d1e6e8;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #BFDAEB;
+		padding: 12px; 
 
     }
 
-
+/* 
     a {
+
       text-decoration: none;
       color: black;
-    }
+	  margin-top: 5px;
+    } */
 
-	.menu ul{
+	/* .menu ul{
 
 		
         
@@ -179,14 +192,14 @@
 		
 		width: 100%;
 		padding-top: 5px;
-	}
+	} */
 
-	.menu ul li {
+	/* .menu ul li {
 		float: right;
 		padding: 10px;
 
 
-	}
+	} */
 
 	
 
@@ -224,6 +237,9 @@
        display: block;
        width: 100%;
        text-align: center;
+	   line-height: 2em;
+	   font-size: 20px;
+	   padding: 20px;
 	}
 
 	.about-content {
@@ -241,45 +257,98 @@
 		text-align: center;
 	}
 
-	.butn-a{
+	.butn-a a{
 		float: left;
-		background-color: pink;
+		background-color: #E9A0BD;;
 		width: 120px;
 		padding: 13px;
+		font-weight: 700;
 		margin-right: 20px;
+		text-decoration: none;
+		transition: 20ms ease-in;
 
 	}
+	.butn-a a:hover{
+		background-color: #fff; 
+		border: 1px solid #E9A0BD;
+		cursor: pointer;
+		
+	}
 
-	.menu img{
+	/* .menu img{
 		float: left;
 		padding-left: 30px;
-	}
+	} */
 
-	.butn-b{
+	.butn-b a{
 		float: left;
-		border-style:  solid;
-		border-color: pink;
+		border:1px  solid #E9A0BD;
 		width: 120px;
-		padding: 10px;
+		padding: 13px;
+		text-decoration: none;
+		font-weight: 700;
+		transition: 200ms ease-in;
+
+	}
+	.butn-b a:hover{
+		background-color: #E9A0BD;
+		cursor: pointer;
 
 	}
 
 	.started{
-
-		border-radius: 17px;
-		background-color: pink;
+		border-radius: 10px;
+		background-color: #BA8FC7;
+		padding: 10px 25px;
+		color: #fff;
 	}
+	.started a {
+		color: #fff;
+		font-weight: 900;
+		text-decoration: none;
+	}
+	.menu-list{
+		display: inline-block;
+		justify-content: space-around;
+	}
+	.menu-list li{
+		display: inline-block;
+		margin-right: 30px;
+		text-decoration: none;
+		
+	}
+	.menu-list li a {
+		text-decoration: none;
+		font-weight: bold;
+		transition: 200ms ease-in;
 
-	.banner {
-		float: left;
-		display: block;
+	}
+	.menu-list li a:hover{	
+		background-color: #fff;
+		padding: 20px 25px;
+		cursor: pointer;
+
+	}
+	 .started a:hover{
+		color: #000;
+		cursor: pointer;
 		padding: 20px;
-		width: 100%;
+	 }
+	.banner {
+
+		padding: 60px;
+		
 	}
 
 	.banner-content{
-		width: 80%;
+		width: 100%;
 		margin: auto;
+		padding: 20px;
+	}
+	.banner-content1{
+		font-size: 30px;
+		line-height: 1.5em;
+		text-align: justify;
 	}
 
 	.banner .text{
@@ -287,6 +356,7 @@
 		border-left: 20px;
 		width: 370px;
 		padding: 30px;
+	
 	}
 	.text p{
 		font-size: 20px;
@@ -296,12 +366,16 @@
 		float: right;
 		padding-right: 30px;
 	}
-	li a{
+	/* li a{
 		color: black ;
+	} */
+	.nav-logo{
+		margin-top:0px;
 	}
 	  
 	*{
-		position: relative;
+		margin: 0;
+		padding: 0;
 		box-sizing: border-box;
 	}
 
