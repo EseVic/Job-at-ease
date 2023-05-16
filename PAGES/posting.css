@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
 }
@@ -24,7 +24,7 @@
 }
 #form-posting{
     margin: auto;
-    width: 90%;
+    width: 70%;
     background-color: white;
 }
 .job-input{
@@ -48,4 +48,23 @@
 }
 .form-field{
     margin-bottom: 100px;
+}
+#jobDescription{
+    height: 80px;
+}
+.selection{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0; 
+    border: 5px solid #bfdaeb;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.job-file{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0; 
+    border: 5px solid #bfdaeb;
+    background-color: white;
 }

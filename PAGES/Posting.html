@@ -11,9 +11,21 @@
     <div id="imager">
         <img id="post-img" src="./job@ease.jpg" alt="">
     </div>
-    <h3 id="ceo">80% of employers who post a job on Job@Ease get a quality Candidate through the site within the first day!</h3>
+    <h3 id="ceo">80% of employers who post a job on Job@Ease get a<br> quality Candidate through the site within the first day!</h3>
     <div id="form-posting">
         <form class="form-field">
+            <div class="form-job">
+                <label class="job-font" for="companyName">*Company Name</label><br>
+                <input class="job-input" type="text" id="companyName" placeholder="Enter Company Name" required>
+            </div>
+            <div class="form-job">
+                <label class="job-font" for="companyEmail">*Company Email</label><br>
+                <input class="job-input" type="text" id="companyEmail" placeholder="Enter Company Email" required>
+            </div>
+            <div class="form-job">
+                <label class="job-font" for="companyWebsite">*Company Website</label><br>
+                <input class="job-input" type="text" id="companyWebsite" placeholder="Enter URL" required>
+            </div>
             <div class="form-job">
                 <label class="job-font" for="jobTitle">*Job Title</label><br>
                 <input class="job-input" type="text" id="jobTitle" placeholder="Enter Job Title" required>
@@ -21,23 +33,64 @@
             <div class="form-job">
                 <label class="job-font" for="jobLocate">*Job Location</label><br>
                 <input class="job-input" type="text" id="jobLocate" placeholder="Enter ZIP or City, State" required>
+            </div>           
+            <div class="form-job">
+                <label class="job-font" for="jobType">*Employment Type</label><br>
+               
+                <select class="job-file" name="Job Type">
+                    <option class="selection" value="jobType">Full-time</option>
+                    <option class="selection" value="jobType">Part-time</option>
+                    <option class="selection" value="jobType">Temporary</option>
+                    <option class="selection" value="jobType">Contract</option>
+                    <option class="selection" value="jobType">Internship</option>
+                    <option class="selection" value="jobType">Permanent</option>
+                    <option class="selection" value="jobType">New-Grad</option>
+                    <option class="selection" value="jobType">Commission</option>
+                </select>
+            </div>
+            <div class="form-job">
+                <label class="job-font" for="jobOpening">*How many people do you want to hire for this opening</label><br>
+                <select class="job-file" name="Job Type">
+                    <option class="selection" value="jobOpening">1</option>
+                    <option class="selection" value="jobOpening">2</option>
+                    <option class="selection" value="jobOpening">3</option>
+                    <option class="selection" value="jobOpening">4</option>
+                </select>
+            </div>
+            <div class="form-job">
+                <label class="job-font" for="jobAdvert">*Where would you like to advertise this job</label><br>
+                <input class="job-input" type="text" id="jobAdvert" placeholder="Enter Your Location" required>
+            </div>
+            <div class="form-job">
+                <label class="job-font" for="workCompany">*Why work at this company?</label><br>
+                <input class="job-input" type="text" id="workCompany" placeholder="Awesome benefits, great CEO, good team work, etc" required>
+            </div>
+            <div class="form-job">
+                <label class="job-font" for="companyDescription">*Company Description</label><br>
+                <p>Introduce your copmany in a few lines</p>
+                <input class="job-input" type="text" id="companyDescription" placeholder="We are into sales and renting of properties of all kind and specification across th country" required>
+            </div>
+            <div class="form-job">
+                <label class="job-font" for="beneFits">*Benefits</label><br>
+                <input class="job-input" type="text" id="beneFits" placeholder="Enter Benefits" required>
             </div>
             <div class="form-job">
                 <label class="job-font" for="streetAdd">*Street Address</label><br>
                 <p class="info">Some jobs board allow users to search with a map. Enter your address for better visibility. </p>
                 <input class="job-input" type="text" id="streetAdd" placeholder="No 419, TIIDELab Estate Abuja" required>
             </div>
-            <h3 id="role">*Can this role be performed as a "remote wor from home" job with no on-site work required?</h3>
+            
+             <div class="form-job">
+                <label class="job-font" for="jobDescription">*Job Description</label><br>
+                <input class="job-input" type="text" id="jobDescription" placeholder="Enter Job Description" required>
+            </div>
+            <h3 id="role">*Can this role be performed as a "remote work from home" job with no on-site work required?</h3>
             <p class="info">selecting yes will allow this job post to be seen by local candidates and candidates looking for remote positions.</p>
             <div class="rad-btn">
                 <input type="radio" class="radio-btn" name="yes">
                 <label for="radio">Yes</label>
                 <input type="radio" class="radio-btn" name="no">
                 <label for="radio">No</label>
-            </div>
-            <div class="form-job">
-                <label class="job-font" for="employType">*Employment Type</label><br>
-                <input class="job-input" type="text" id="employType" placeholder="Select Employment Type" required>
             </div>
     </div>
 </body>
