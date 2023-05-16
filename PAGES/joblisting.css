@@ -48,14 +48,16 @@ color: #797474;
     font-weight: 900;
     font-size: 1rem;
     text-transform: uppercase;
+    color: #fff;
 }
 .joblist-input .listjob{
     padding: 0.625rem 5rem;
+ 
 }
-.joblist-button:hover{
+/* .joblist-button:hover{
     background-color: #af2f63;
 
-}
+} */
 .joblist_jc{
     display: flex;
     justify-content: space-between;

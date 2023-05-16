@@ -69,3 +69,7 @@
 #new{
     text-align: center;
 }
+.enter a{
+    text-decoration: none;
+    color: #fff;
+}
