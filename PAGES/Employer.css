@@ -54,6 +54,8 @@
     font-weight: bold;
     color: white;
 }
-#click:hover{
-    
+
+.click a{
+    text-decoration: none;
+    color: #fff;
 }
