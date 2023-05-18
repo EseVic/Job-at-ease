@@ -8,6 +8,8 @@ function signup() {
       return;
     }
 
+    if (localStorage.getItem = )
+
     // Create user object and store in local storage
     var user = {
       email: email,
