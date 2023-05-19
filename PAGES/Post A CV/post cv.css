@@ -6,30 +6,30 @@
     font-family: cursive;
     font-size: 16px;
     background: white;
-    color: black;
+    color: #e9a0bd;
     margin: 2rem 8rem;
 }
 #vic{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:
 }
 .cv-input{
     width: 100%;
     padding: 12px 20px;
-    margin: 15px 0; 
-    border: 2px solid black
+    margin: 10px 0; 
+    border: 2px solid #e9a0bd;
     background-color: white;
     font-size: 16px;
     font-weight: bold;
 }
+
 #for-job{
     width: 70%;
     padding-top: 12px;
     padding-bottom: 12px;
     margin: 15px 0; 
-    border: 2px solid black;
+    border: 2px solid #e9a0bd;
     background-color: #e9a0bd;
     font-size: 16px;
     font-weight: bold;
@@ -48,5 +48,41 @@
     margin-left: 450px;
     margin-top: 40px;
     padding: 20px 20px;
-    background-color: #e9a0bd;;
+    background-color: #e9a0bd;
 }
+.footer{
+    align-items: center;
+    background-color: #BFDAEB;
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    height: 20vh;
+  }
+  .icons{
+    display: flex;
+    border-top: #BFDAEB;
+    border-left:#BFDAEB;
+    border-right: #BFDAEB;
+    border-bottom: #BFDAEB;
+    border-width: 
+
+  }
+
+  .footer ul li{
+    list-style: none;
+    float: left;
+    padding: 20px 15px;
+}
+
+  /*#copyryt{
+    text-align: center;
+  }
+
+  .log img{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+  }

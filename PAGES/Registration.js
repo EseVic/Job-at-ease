@@ -18,4 +18,5 @@ function signup() {
 
     localStorage.setItem(email, JSON.stringify(user));
     alert('Registration successful. Please login.');
+    //window.location.href = 'postajob.html'
   }
