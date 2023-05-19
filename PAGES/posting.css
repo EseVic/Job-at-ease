@@ -68,3 +68,12 @@
     border: 5px solid #bfdaeb;
     background-color: white;
 }
+#buttonId{
+    background-color: #E9A0BD;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 20px;
+    display: block;
+    margin: 5px auto;
+    border-radius: 20px;
+    border: solid white;
